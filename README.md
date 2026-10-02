@@ -40,11 +40,8 @@ llm-api-project/
 ### 1. Clone the repository
 
 ``` bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-cd YOUR-REPOSITORY
+git clone https://github.com/NimraAIAutomation/Securely-Calling-LLM-APIs-in-Python
 ```
-
-Replace the URL with your repository's URL.
 
 ### 2. Create and activate a virtual environment
 
@@ -75,7 +72,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project directory:
 
 ``` env
-GROQ_API_KEY=your_groq_api_key
+GROQ_API_KEY="your_groq_api_key"
 ```
 
 Get an API key from the Groq developer console. Never commit your actual
